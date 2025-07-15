@@ -13,7 +13,8 @@ Explorar informações fornecidas no painel de lançamento de iniciativas que at
 - Jupyter Notebook  
 
 ## Resultados  
-!Trasncrição (<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b1712752-ff38-49e9-9e61-991e74f5bf00" />
+!Trasncrição (<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/890ef250-a3f4-4b12-9da5-8f4c4a034302" />
+
 )  
 
 ## Como Executar  
