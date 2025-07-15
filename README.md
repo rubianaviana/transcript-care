@@ -24,7 +24,14 @@ Explorar informações fornecidas no painel de lançamento de iniciativas que at
 !pip install -U openai-whisper
 !sudo apt update && sudo apt install ffmpeg -y
 
+# Configurações
+input_file = "videoplayback.mp4"
+output_dir = "output_whisper"
+model_name = "medium"  # Mude para "large-v3" se precisar de mais precisão
+segment_duration = 3600  # 1 hora em segundos
 
+# Verifica se o arquivo existe
+if not os.path.exists(input_file):
     print(f"Erro: Arquivo '{input_file}' não encontrado!")
     exit()
 
