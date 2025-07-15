@@ -15,9 +15,9 @@ Explorar informações fornecidas no painel de lançamento de iniciativas que at
 ## Resultados  
 !Transcrição 
 
-(<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/890ef250-a3f4-4b12-9da5-8f4c4a034302" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/890ef250-a3f4-4b12-9da5-8f4c4a034302" />
 
-)  
+  
 
 ## Como Executar  
 ```bash
