@@ -6,7 +6,7 @@ Script used to transcribe the recording of the National Care Policy update event
 # Análise das Principais Ferramentas da Política Nacional de Cuidado  
 
 ## Objetivo  
-Explorar informações fornecidas no painel de lançamento de iniciativas que atualizam a política de cuidados para responder a demanda por informações sobre o estado atual da política através de insights estratégicos. A base de dados era um vídeo com 4h de duração. 
+Explorar informações fornecidas no painel de lançamento de iniciativas que atualizam a política de cuidados para oferecer um resumo geral  sobre o estado atual da política através de insights estratégicos. Para isso, foi necessário transcrever a gravação de vídeo do evento. A base de dados foi um vídeo com 4h de duração. 
 
 ## Ferramentas  
 - Python (-U openai-whisper, ffmpeg)  
