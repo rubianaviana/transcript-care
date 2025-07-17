@@ -9,7 +9,7 @@ Script used to transcribe a long audio sample, with more than 240 minutes.
 Explorar informações fornecidas na amostra de áudio para oferecer um resumo geral de análises e insights estratégicos através da sua transcrição para formato de texto. A base de dados foi um vídeo com 4h de duração, que foi dividido em partes de até 1h para otimizar o tempo de transcrição. O script também reuniu as transcrições em um único documento de texto, e as análises foram realizadas sobre ele, reduzindo o tempo de trabalho.  
 
 ## Ferramentas  
-- Python (-U openai-whisper, ffmpeg)  
+- Python (openai-whisper, ffmpeg)  
 - Jupyter Notebook  
 
 ## Resultados  
