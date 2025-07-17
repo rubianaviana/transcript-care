@@ -1,19 +1,19 @@
 # transcript-care
-Script utilizado para a transcrição para formato de texto da gravação do evento de atualização da Política Nacional de Cuidados. A transcrição serviu de base para insights sobre a política e o plano nacional.
+Script utilizado para a transcrição de um áudio longo, com mais de 240 minutos.
 
-Script used to transcribe the recording of the National Care Policy update event into text format. The transcript served as the basis for insights into the policy and national plan.
+Script used to transcribe a long audio sample, with more than 240 minutes.
 
-# Análise das Principais Ferramentas da Política Nacional de Cuidado  
+# Transcrição do Áudio  
 
 ## Objetivo  
-Explorar informações fornecidas no painel de lançamento de iniciativas que atualizam a política de cuidados para oferecer um resumo geral  sobre o estado atual da política através de insights estratégicos. Para isso, foi necessário transcrever a gravação de vídeo do evento. A base de dados foi um vídeo com 4h de duração. 
+Explorar informações fornecidas na amostra de áudio para oferecer um resumo geral de análises e insights estratégicos através da sua transcrição para formato de texto. A base de dados foi um vídeo com 4h de duração, que foi dividido em partes de até 1h para otimizar o tempo de transcrição. Posteriormente, a transcrição foi reunida em um único documento de texto, e as análises foram realizadas sobre ele, reduzindo o tempo de trabalho.  
 
 ## Ferramentas  
 - Python (-U openai-whisper, ffmpeg)  
 - Jupyter Notebook  
 
 ## Resultados  
-!Transcrição 
+Transcrição 
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/890ef250-a3f4-4b12-9da5-8f4c4a034302" />
 
@@ -25,9 +25,9 @@ Explorar informações fornecidas no painel de lançamento de iniciativas que at
 !sudo apt update && sudo apt install ffmpeg -y
 
 # Configurações
-input_file = "videoplayback.mp4"
+input_file = "videoplayback.mp4" #Aqui vai o seu arquivo de áudio
 output_dir = "output_whisper"
-model_name = "medium"  # Mude para "large-v3" se precisar de mais precisão
+model_name = "medium"  # Mude para "large-v3" se precisar de mais precisão, nesse formato o script levou cerca 56min para concluir
 segment_duration = 3600  # 1 hora em segundos
 
 # Verifica se o arquivo existe
