@@ -27,7 +27,7 @@ Transcrição
 # Configurações
 input_file = "videoplayback.mp4" #Aqui vai o seu arquivo de áudio
 output_dir = "output_whisper"
-model_name = "medium"  # Mude para "large-v3" se precisar de mais precisão, nesse formato o script levou cerca 56min para concluir
+model_name = "medium"  # Mude para "large-v3" se precisar de mais precisão, nesse modelo levou ~56min para concluir
 segment_duration = 3600  # 1 hora em segundos
 
 # Verifica se o arquivo existe
